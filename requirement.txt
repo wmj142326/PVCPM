@@ -1,0 +1,10 @@
+matplotlib
+numpy
+opencv-python
+pandas
+PyWavelets
+PyYAML
+tensorboard
+tensorboardX
+scipy
+scikit-learn

@@ -1,0 +1,77 @@
+!.gitignore
+
+# Local editor / tooling state
+.idea/
+.vscode/
+.codex/
+.codex
+.vendor/
+.agents
+
+# Local environment and secrets
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Archives
+*.zip
+
+# Local helper scripts
+tools/
+tools.py
+tools.ipynb
+pvcp_video/get_data_3d_pvcp_video.py
+run_inference_vis_pvcp.sh
+
+# Training outputs and checkpoints
+vlm_model/
+vlm_model
+output_pvcp/
+output/
+output
+ckpt/
+ckpt
+logs/
+log/
+wandb/
+tensorboard/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local datasets and generated artifacts
+dataset
+dataset/
+dataset/data_multi_modal/
+dataset/humaneva_multi_modal/
+dataset/pvcp/rawdata/
+dataset/pvcp/dataset_pose.json
+dataset/pvcp/SMPLX_models/
+
+# DivSamp origan file
+fid_acc
+h36m
+humaneva
+main_classifier.py
+pvcp
+run_pvcp.sh
+
+# Large local media files
+*.mp3
+*.mp4
+*.pptx
