@@ -10,7 +10,7 @@ Scene Semantics-Guided Probabilistic Pedestrian Pre-Collision Motion Prediction
 此外，本文提出一种基于两阶段条件变分自编码器（CVAE）、由场景语义引导的概率化运动预测框架。该框架将运动生成与多样化采样解耦，并引入视觉语言模型（VLM）提取场景语义特征；通过特征线性调制（FiLM）机制，利用语义特征对运动序列进行调控。
 本研究同时兼顾行人预碰撞运动独有的动力学特征与真实交通语义环境，能够生成多样化且贴合现实交通场景的预测结果。在 PVCPM 数据集上开展的大量对比实验证明，所提方法相较于主流基线模型及同期前沿算法具备优越性能，验证了该框架用于行人预碰撞概率运动预测的有效性。
 
-![introduction.svg](assets/introduction.svg)
+![introduction.png](assets/introduction.png)
 
 ---
 
@@ -110,9 +110,9 @@ python main.py --exp_name=pvcp_video_t2 --is_load=1 --seed=44 \
 CUDA_VISIBLE_DEVICES=0 SORT_PREDICTIONS_BY_GT=1 SEED=44 bash run_inference_vis_pvcp_video.sh
 ```
 
-![joint.svg](assets/joint.svg)
+![joint.png](assets/joint.png)
 
-![mesh.svg](assets/mesh.svg)
+![mesh.png](assets/mesh.png)
 
 
 📣 我们的论文正在评审中...
